@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Focus Friend</title>
+  <link rel="stylesheet" href="sidepanel.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Focus Friend</div>
+    <div class="stats"><span id="pts">⭐ 0</span><span id="str">🔥 0</span></div>
+  </header>
+  <div id="toast" hidden></div>
+  <main>
+    <section id="home">
+      <div class="buddy-wrap">
+        <div id="speech"></div>
+        <div id="buddy"></div>
+      </div>
+      <div id="homeBody"></div>
+    </section>
+    <section id="shop" hidden></section>
+    <section id="settings" hidden></section>
+  </main>
+  <nav id="nav">
+    <button data-s="home">Focus</button>
+    <button data-s="shop">Shop</button>
+    <button data-s="settings">Settings</button>
+  </nav>
+  <script src="shared.js"></script>
+  <script src="art.js"></script>
+  <script src="sidepanel.js"></script>
+</body>
+</html>
